@@ -1,0 +1,39 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    margin-top: 50px;
+    display: flex;
+    flex: right;
+    width: 1110px;
+    height: 58px;
+    left: 165px;
+}
+
+.tm{
+    background-color: #f16718;
+    color: #fff;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 169.43px;
+    top: calc(50px - 26px/2);
+    font-family: Georgia;
+}
+/*tm{
+    background-color: #f16718;
+    height: 50px;
+}*/
+
+.pre{
+    position: absolute;
+    width: 500px;
+    height: 26px;
+    left: 82.86%;
+    right: 15.43px;
+    top: calc(50px - 26px/2);
+    font-family: Georgia;
+}
