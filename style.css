@@ -3,37 +3,263 @@
     margin: 0;
     padding: 0;
 }
+.nav{
+    background-color: blue;
+    width: 1120px;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page{
+    padding: 3rem;
+    margin-left: 3rem;
+}
+ /* Tm */
+.tm{
+    width: 40px;
+    height: 40px;
+    left: 165px;
+    top: 64px;
+    background-color: #f16718;
+}
+.tm{
+    width: 20px;
+    height: 12px;
+    top: 69.2px;
+    left: 169.43px;
+    color: #fff;
+}
+.tm{
+    width: 19px;
+    height: 11px;
+    left: 170px;
+    top: 70px;
+    
+}
+/* Pre-order now */
+.pre{
+    width: 210px;
+    height: 50px;
+    left: 14.86%;
+    right: 15.43%;
+    top: calc(50% - 26px/2);
+    font-family: Impact;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 29px;
+    color: #162542;
+    text-transform: uppercase;
+}
+.pre{
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #E8EFF2;
+    border-radius: 8px;
+}
 
-.top{
-    margin-top: 50px;
+.mid-content{
+    height: 80vh;
+    width: 100%;
+    margin-top: 10rem;
     display: flex;
     flex: right;
-    width: 1110px;
-    height: 58px;
+}
+ /* Typemaster Keyboard*/
+ .type{
+    width: 445px;
+    height: 312px;
     left: 165px;
+    top: 256px;
 }
 
-.tm{
+.key{
+    margin-top: 50px;
+    font-family: Impact;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #162542;
+}
+
+.key-info{
+    font-family: Impact;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #7B8BAD;
+}
+.key-info{
+    left: 0%;
+    right: 0%;
+    top: 43.59%;
+    bottom: 31.41%;
+}
+
+/* Pre-order now btn 2*/
+.pre-order-container{
+    background: white;
+    margin-top: 20%;
+    height: 10vh;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pre-order{
+    height: 27px;
+    left: 14.86%;
+    right: 15.43%;
+    top: calc(50% - 26px/2);
+    font-family: Impact;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
     background-color: #f16718;
     color: #fff;
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 169.43px;
-    top: calc(50px - 26px/2);
-    font-family: Georgia;
 }
-/*tm{
-    background-color: #f16718;
-    height: 50px;
-}*/
-
-.pre{
-    position: absolute;
-    width: 500px;
+.pre-order{
+    width: 175px;
+    height: 58px;
+    border-radius: 8px;
+}
+.release{
+    
     height: 26px;
-    left: 82.86%;
-    right: 15.43px;
-    top: calc(50px - 26px/2);
-    font-family: Georgia;
+    left: 48.31%;
+    right: 23.15%;
+    top: calc(50% - 26px/2 + 127px);
+    font-family: Impact;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #7B8BAD;
 }
+.img-container{
+    width: 540px;
+    height: 480px;
+    left: 735px;
+    top: 196px;
+    background: #D8D8D8;
+    border-radius: 20px;
+    
+}
+.img-container{
+    border-radius: 20px;
+    
+}.box{
+    width: 255px;
+    height: 240px;
+    left: 1305px;
+    top: 196px;
+    background: #E8EFF2;
+    border-radius: 20px;
+
+}
+/* container-2*/
+.container-2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.box1{
+    width: 255px;
+    height: 236px;
+    left: -120px;
+    top: 950px;
+    background: #E8EFF2;
+    border-radius: 20px;
+   
+}
+
+.img-container2{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.pic{
+    background: orangered;
+    width: 255px;
+    height: 480px;
+    border-radius: 20px;
+    
+}
+.img-2{
+    height: 100%;
+    width: 100%;
+    opacity: 40%;
+    
+}
+.img-3{
+    width: 445px;
+    height: 480px;
+    left: 450px;
+    top: 706px;
+    border-radius: 30px;
+}
+.Mech{
+    margin-top: 40px;
+    width: 255px;
+    height: 265px;
+    left: 1020px;
+    top: 818px;
+
+}
+
+.mech1{
+    width: 255px;
+    height: 108px;
+    left: 1020px;
+    top: 818px;
+    font-family: Impact;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #162542;
+}
+.mech2{
+    width: 255px;
+    height: 130px;
+    left: 1020px;
+    top: 953px;
+    font-family: Impact;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
