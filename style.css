@@ -6,7 +6,7 @@
 }
 body{
     position: absolute;
-    width: 90vw;
+    width: 92vw;
     
 
 }
@@ -29,7 +29,7 @@ main{
 
 
 
-
+/*------Pre-order btn1----------*/
 .pre{
     width: 210px;
     height: 50px;
@@ -45,7 +45,12 @@ main{
     border: 1px none;
     border-radius: 8px;
 }
-
+.pre:hover{
+    cursor:pointer;
+    background-color: #162542;
+    color: #fff;
+}
+/*-----Container 2---------*/
 .two{
     width: 445px;
     height: 590px;
@@ -83,7 +88,7 @@ main{
     line-height: 26px;
     color: #7B8BAD;
 }
-/* Pre-order now btn 2*/
+/*------ Pre-order now btn 2------*/
 .pre-order-container{
     background: white;
     margin-top: 20%;
@@ -115,6 +120,12 @@ main{
     top: 254px;
     border-radius: 8px;
 }
+.pre-order:hover{
+    cursor: pointer;
+    background-color: #ff9b62;
+    color: #fff;
+}
+/*------Release------*/
 .release{
     
     height: 26px;
@@ -129,6 +140,7 @@ main{
     text-transform: uppercase;
     color: #7B8BAD;
 }
+/*------Keyboard Img----------*/
 .img-container{
     margin-top: 50px;
     width: 540px;
@@ -137,7 +149,7 @@ main{
     top: 196px;
     background: #D8D8D8;
     border-radius: 20px;
-    margin-left: 100px ;
+    margin-left: 119px ;
     }
 
 
@@ -145,7 +157,7 @@ main{
     border-radius: 30px;
 }
 
-/* container-2*/
+/*--------container-2--------*/
 .container-2{
     display: flex;
     justify-content: space-around;
@@ -221,12 +233,13 @@ main{
 }
 
 /* down-conatiner*/
-
-.down-container{
+.four{
     display: flex;
-    flex: right;
-    margin-top: 120px;
+    flex: right ;
+    margin-top: 130px;
+    justify-content: space-evenly;
 }
+
 
 
 /*----- container-3------*/
@@ -252,6 +265,113 @@ main{
     justify-content: center;
     align-items: center;
 }
+.high1{
+    margin-top: 40px;
+}
+.high{
+    width: 255px;
+    height: 56px;
+    left: 165px;
+    top: 1467px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #162542;
+}
+.high2{
+    width: 255px;
+    height: 130px;
+    left: 165px;
+    top: 1547px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+}
+
+/*------container-4------*/
+.container-4{
+    width: 255px;
+    height: 323px;
+    left: 165px;
+    top: 1354px;
+    
+}
+.blue{
+    margin-top: 20px;
+}
+
+.blue-svg{
+    width: 50px;
+    height: 50px;
+    left: 165px;
+    top: 1354px;
+    background-color: orangered;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*------container-5-----*/
+.container-5{
+    width: 255px;
+    height: 323px;
+    left: 165px;
+    top: 1354px;
+    
+}
+.batt{
+    margin-top: 20px;
+}
+
+.batt-svg{
+    width: 50px;
+    height: 50px;
+    left: 165px;
+    top: 1354px;
+    background-color: orangered;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*------container-6-----*/
+.container-6{
+    width: 255px;
+    height: 323px;
+    left: 165px;
+    top: 1354px;
+    
+}
+.light{
+    margin-top: 20px;
+}
+
+.light-svg{
+    width: 50px;
+    height: 50px;
+    left: 165px;
+    top: 1354px;
+    background-color: orangered;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    margin-top: 100px;
+    text-align: center;
+    color: #7B8BAD;
+}
+
 
 
 
