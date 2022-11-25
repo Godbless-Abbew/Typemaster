@@ -10,9 +10,7 @@ body{
     
 
 }
-main{
-    /* overflow: hidden; */
-}
+
 .page{
     padding: 2rem;
     width: 1110px;
@@ -156,6 +154,9 @@ main{
 .img-1 img{
     border-radius: 30px;
 }
+.img-container1{
+    display: none;
+}
 
 /*--------container-2--------*/
 .container-2{
@@ -194,6 +195,9 @@ main{
 }
 .img-3 img{
     border-radius: 50px;
+}
+.pic2{
+    display: none;
 }
 
 /*-------Mech-------*/
@@ -238,6 +242,13 @@ main{
     flex: right ;
     margin-top: 130px;
     justify-content: space-evenly;
+
+}
+.first{
+    display: none;
+}
+.second{
+    display: none;
 }
 
 
@@ -412,18 +423,28 @@ main{
 
     }
     .img-container{
-        margin-top: 50px;
-        width: 540px;
-        height: 380px;
-        left: -100px;
-        top: 196px;
-        margin-left: -100px ;
-        border-radius: 40px;
-        background: #D8D8D8;
-}
-        .img-1 img{
+        
+        display: none;
+    }
+    .img-1 img{
             border-radius: 30px;
-        }
+    }
+    .img-container1{
+        display: inline;
+        width: 478px;
+        height: 425px;
+        left: 47px;
+        top: 160px;
+        border: 1px none;
+        border-radius:  30px ;
+        
+    }    
+    .img-0 img{
+        margin-top: 50px;
+        margin-left: -60px;
+        border-radius: 30px;
+        left: 47px;
+}
         .release{
             width: 250px;
             height: 26px;
@@ -433,29 +454,66 @@ main{
         .pic{
             width: 214px;
             height: 320px;
-            left: 39px;
+            left: 69px;
             top: 625px;
+            margin-left: -30px;
         }
         .img-2 img{
             width: 214px;
             height: 320px;
-            left: 39px;
+            left: 69px;
             top: 625px;
+            
         }
         
         .img-3{
-            width: 445px;
+            display: none;
+        }
+        .pic2{
+            display: inline;
+            border: 1px none;
+            border-radius: 20px;
             height: 320px;
-            left: 283px;
-            top: 625px;
-        }
+}
+        .img-4 img{
+            border: 1px none;
+            border-radius: 30px;
+            height: 320px;
+            /* margin-right: -10px; */
+}
         
-        .Mech{
-            width: 55px;
-            height: 108px;
-            left: 10px;
-            top: 1017px;
+        /* -------Mech------- */
+        .container-2{
+             flex-direction: column;
         }
+        .Mech{
+            display: flex;
+           
+        }
+        .mech2{
+            width: auto;
+            margin-left: 240px;
+            line-height: normal;
+            
+        }
+        /*------Down-container------- */
+        .four{
+            /* display: flex; */
+            justify-content: space-around;
+            width: 631px;
+            height: 650px;
+            left: -39px;
+            top: 1267px;
+        }
+    
+        .first{
+            display: flex;
+          
+        }
+        .second{
+            display: flex;
+        }
+
 
 }
  
