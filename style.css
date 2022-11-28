@@ -70,13 +70,7 @@
 }
 .img-container .desktop{
     width: 60vh;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-
-    
+    border-radius: 1rem;    
 }
 
 .img-container .mobile,.tablet{
@@ -102,11 +96,7 @@
     font-size: 1.2rem;
     margin-left: 4rem;
 }
-/* .box1{
-    position: relative;
-    top: -78rem;
-    left: 49rem;
-} */
+
 .pre-order-container{
     margin-top: 2rem;
     display: flex;
@@ -124,10 +114,6 @@
     font-weight: 700;
     font-size: 1em;
     border-radius: .7rem;
-    -webkit-border-radius: .7rem;
-    -moz-border-radius: .7rem;
-    -ms-border-radius: .7rem;
-    -o-border-radius: .7rem;
     border: none;
     text-align: center;
     text-transform: uppercase;
@@ -175,12 +161,6 @@
     width: 60vh;
     border-radius: 3rem;
 }
-/* .box2{
-    position: relative;
-    top: -51rem;
-    right: 49rem;
-} */
-
 
 .wireless-img .mobile{ 
     display: none;
@@ -228,10 +208,6 @@ color: var(--main-color);
     background-color: var(--background-orange-color);
     height: 3rem;
     border-radius: .7rem;
-    -webkit-border-radius: .7rem;
-    -moz-border-radius: .7rem;
-    -ms-border-radius: .7rem;
-    -o-border-radius: .7rem;
     margin-bottom: 3rem;
 }
 
@@ -239,8 +215,6 @@ color: var(--main-color);
     margin: 3rem;
     color: var(--main-light-color);
     text-align: center;
-    /* margin-top: 10rem;
-    margin-bottom: -20rem; */
 }
 
 
@@ -285,9 +259,7 @@ color: var(--main-color);
     .pre-order-container h3{
         width: 9rem;
     }
-    /* .Box{
-        display: none;
-    } */
+    
     .wireless-img .all{
         width: 214px;
         height: 320px;
@@ -322,7 +294,6 @@ color: var(--main-color);
         position: relative;
         width: 20rem;
         top: 2rem;
-        /* display: flex; */
         left: 22rem; 
      }
      .computer-container p{
@@ -332,7 +303,6 @@ color: var(--main-color);
         position: relative;
         width: 20rem;
         top: 2rem;
-        /* display: flex; */
         left: 22rem;
      }
      .bluetooth-container p{
@@ -342,7 +312,6 @@ color: var(--main-color);
         position: relative;
         width: 20rem;
         top: 25rem;
-        /* display: flex; */
         right: 19rem; 
      }
      .battery-container p{
@@ -352,7 +321,6 @@ color: var(--main-color);
         position: relative;
         width: 20rem;
         top: 25rem;
-        /* display: flex; */
         right: 18rem;
      }
      .mode-container p{
