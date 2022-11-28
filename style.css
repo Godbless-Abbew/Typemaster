@@ -393,7 +393,7 @@ color: var(--main-color);
         }
      .battery-container{
         position: relative;
-        width: 20rem;
+       width: 20rem;
         margin-top: -110rem;
         /* display: flex; */
         right: 7rem; 
