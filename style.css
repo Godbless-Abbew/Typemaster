@@ -1,5 +1,4 @@
-*{
-    
+*{    
     margin: 0;
     padding: 0;
     font-family: barlow;
@@ -11,9 +10,7 @@
     --light-grey:#e8eff2;
     --main-light-color:#788bad;
     --white-color:#fff;
-
 }
-
 .page{
     width: 100%;
     height: 100%;
@@ -21,10 +18,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-    
+    overflow: hidden;   
 }
-
 .nav{
     width: 80%;
     height: 10vh;
@@ -42,10 +37,6 @@
     font-weight: 700;
     font-size: 1em;
     border-radius: .7rem;
-    -webkit-border-radius: .7rem;
-    -moz-border-radius: .7rem;
-    -ms-border-radius: .7rem;
-    -o-border-radius: .7rem;
     border: none;
     text-align: center;
     text-transform: uppercase;
@@ -55,7 +46,6 @@
     background-color: var(--main-color);
     color: var(--white-color);
 }
-
 .container-two{
     /* background-color: var(--main-color); */
     width: 90%;
@@ -63,24 +53,19 @@
     display: flex;
     justify-content: flex-start;
     gap: 19rem;
-
     align-items: center;
-    
-
 }
 .img-container .desktop{
     width: 60vh;
     border-radius: 1rem;    
 }
-
 .img-container .mobile,.tablet{
     display: none;
 }
 .keyboard-master h1{
     font-size: 3rem;
     color: var(--main-color);
-    margin-right: 12rem;
-    
+    margin-right: 12rem;   
 }
 .keyboard{
     text-transform: uppercase;
@@ -96,7 +81,6 @@
     font-size: 1.2rem;
     margin-left: 4rem;
 }
-
 .pre-order-container{
     margin-top: 2rem;
     display: flex;
@@ -127,7 +111,6 @@
     font-size: 1em;
     text-transform: uppercase;
 }
-
 .wireless-keyboard{
     width: 90%;
     margin-top: 2rem;
@@ -140,8 +123,7 @@
 .wireless-img{
     display: flex;
     justify-content: space-around;
-    gap: 2rem;
-    
+    gap: 2rem;   
 }
 .wireless-img .all {
     background: var(--background-orange-color);
@@ -156,12 +138,10 @@
     background: #f16718;
     border-radius: 3rem;
 }
-
 .wireless-img .desktop{
     width: 60vh;
     border-radius: 3rem;
 }
-
 .wireless-img .mobile{ 
     display: none;
 }
@@ -169,8 +149,6 @@
     display: flex;
     flex-direction: column;
     gap: 2em;
-    
-
 }
 .mech1{
 font-size: 2em;
@@ -210,15 +188,13 @@ color: var(--main-color);
     border-radius: .7rem;
     margin-bottom: 3rem;
 }
-
 .footer{
     margin: 3rem;
     color: var(--main-light-color);
     text-align: center;
 }
 
-
-/* ------Responsive styles tablet------------------- */
+/* Responsive styles tablet */
 @media  screen and (max-width:768px){
     .page{
         width: 768px;
@@ -247,19 +223,17 @@ color: var(--main-color);
     position: relative;
     border-radius: 1rem;
     left: -5rem;
-}
+    }
     .pre-order-container{
          gap: 2rem;
     }
     .pre-order-container button{
         width: 12rem;
-        height: 58px;
-       
+        height: 58px;       
     }
     .pre-order-container h3{
         width: 9rem;
     }
-    
     .wireless-img .all{
         width: 214px;
         height: 320px;
@@ -307,7 +281,7 @@ color: var(--main-color);
      }
      .bluetooth-container p{
         width: 20rem;
-}
+    }
      .battery-container{
         position: relative;
         width: 20rem;
@@ -331,7 +305,7 @@ color: var(--main-color);
         text-align: center;
      }
 }
-/* -------Responsive styles Mobile------- */
+/* Responsive styles Mobile */
 @media  screen and (max-width:376px){
     .page{
         width: 376px;
@@ -355,11 +329,9 @@ color: var(--main-color);
     .keyboard p{
         line-height: 4rem;
     }
-
     .img-container .desktop{
         display: none;
     }
-    
     .img-container .tablet{
         display: none;
     }
@@ -405,7 +377,6 @@ color: var(--main-color);
         position: relative;
         width: 20rem;
         margin-top: -160rem;
-        /* display: flex; */
         left: 32rem; 
      }
      .computer-container p{
@@ -415,7 +386,6 @@ color: var(--main-color);
         position: relative;
         width: 20rem;
         margin-top: -110rem;
-        /* display: flex; */
         left: 13rem;
      }
      .bluetooth-container p{
@@ -445,8 +415,6 @@ color: var(--main-color);
         margin-top: -30rem;
         text-align: center;
      }
-
-
 
 }   
 
