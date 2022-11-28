@@ -21,6 +21,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     
 }
 
@@ -101,6 +102,11 @@
     font-size: 1.2rem;
     margin-left: 4rem;
 }
+/* .box1{
+    position: relative;
+    top: -78rem;
+    left: 49rem;
+} */
 .pre-order-container{
     margin-top: 2rem;
     display: flex;
@@ -169,6 +175,11 @@
     width: 60vh;
     border-radius: 3rem;
 }
+/* .box2{
+    position: relative;
+    top: -51rem;
+    right: 49rem;
+} */
 
 
 .wireless-img .mobile{ 
@@ -228,6 +239,8 @@ color: var(--main-color);
     margin: 3rem;
     color: var(--main-light-color);
     text-align: center;
+    /* margin-top: 10rem;
+    margin-bottom: -20rem; */
 }
 
 
@@ -250,13 +263,17 @@ color: var(--main-color);
     gap:0;
     margin-left: -9rem;
     }
-    .img-container .tablet{
-    height: 425px;
-    width: 478px;
-    position: relative;
-    left: 1rem;
-
+    .img-container .desktop{
+        display: none;
     }
+    .img-container .tablet{
+    display: inline;
+    height: 325px;
+    width: 50vh;
+    position: relative;
+    border-radius: 1rem;
+    left: -5rem;
+}
     .pre-order-container{
          gap: 2rem;
     }
@@ -268,6 +285,9 @@ color: var(--main-color);
     .pre-order-container h3{
         width: 9rem;
     }
+    /* .Box{
+        display: none;
+    } */
     .wireless-img .all{
         width: 214px;
         height: 320px;
@@ -282,10 +302,6 @@ color: var(--main-color);
         width: 23rem;
         left: 9rem;
         border-radius: 2rem;
-        -webkit-border-radius: 2rem;
-        -moz-border-radius: 2rem;
-        -ms-border-radius: 2rem;
-        -o-border-radius: 2rem;
     }
     
     .Mech .mech1{
@@ -375,6 +391,10 @@ color: var(--main-color);
     .img-container .desktop{
         display: none;
     }
+    
+    .img-container .tablet{
+        display: none;
+    }
     .img-container .mobile{
         position: relative;
         display: inline;
@@ -432,7 +452,7 @@ color: var(--main-color);
      }
      .bluetooth-container p{
         width: 20rem;
-}
+        }
      .battery-container{
         position: relative;
         width: 20rem;
