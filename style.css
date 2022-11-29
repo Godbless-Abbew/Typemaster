@@ -195,10 +195,11 @@ color: var(--main-color);
 }
 
 /* Responsive styles tablet */
-@media  screen and (max-width:768px){
+@media  only screen and (max-width:850px) and (min-width:430px){
     .page{
         width: 768px;
-        overflow: hidden;
+        overflow-x: hidden;
+        height: 190vh;
     }
     .pre{
     width: 20vw;
@@ -206,12 +207,18 @@ color: var(--main-color);
     }
     .nav{
         width: 80%;
+        /* margin-top: -15rem; */
     }
     .container-two{
-    width: 80%;
+    width: 40%;
     height: 60vh;
     gap:0;
     margin-left: -9rem;
+    margin-top: -90px;
+    }
+    .keyboard-master{
+        margin-left: -9rem;
+        width: 25rem;
     }
     .img-container .desktop{
         display: none;
@@ -219,10 +226,10 @@ color: var(--main-color);
     .img-container .tablet{
     display: inline;
     height: 325px;
-    width: 50vh;
+    width: 25rem;
     position: relative;
     border-radius: 1rem;
-    left: -5rem;
+    left: 4rem;
     }
     .pre-order-container{
          gap: 2rem;
@@ -234,11 +241,16 @@ color: var(--main-color);
     .pre-order-container h3{
         width: 9rem;
     }
+
     .wireless-img .all{
-        width: 214px;
+        width: 10rem;
         height: 320px;
         left: 39px;
         top: 625px;
+    }
+    .wireless-img{
+        margin-top: -100px;
+        margin-left: -1rem;
     }
     .wireless-img .desktop{
         display: none;
@@ -252,14 +264,14 @@ color: var(--main-color);
     
     .Mech .mech1{
         position: relative;
-        right: 48rem;
+        right: 44rem;
         top: 20rem;
     }
     .Mech .mech2{
         position: relative;
         width: 20rem;
-        right: 28rem;
-        top: 13rem;
+        right: 26rem;
+        top: 12.5rem;
         display: flex;
         flex-direction: right;
         justify-items: center;
@@ -267,7 +279,7 @@ color: var(--main-color);
     .computer-container{
         position: relative;
         width: 20rem;
-        top: 2rem;
+        top: 3rem;
         left: 22rem; 
      }
      .computer-container p{
@@ -276,7 +288,7 @@ color: var(--main-color);
      .bluetooth-container{
         position: relative;
         width: 20rem;
-        top: 2rem;
+        top: 3rem;
         left: 22rem;
      }
      .bluetooth-container p{
@@ -286,7 +298,7 @@ color: var(--main-color);
         position: relative;
         width: 20rem;
         top: 25rem;
-        right: 19rem; 
+        right: 18rem; 
      }
      .battery-container p{
         width: 20rem;
@@ -305,29 +317,47 @@ color: var(--main-color);
         text-align: center;
      }
 }
+@media  only screen and (max-width:820px) {
+    
+  
+    .footer{
+    margin-top: 25rem;
+    margin-bottom: 10rem;
+  }
+}
+
 /* Responsive styles Mobile */
-@media  screen and (max-width:376px){
+@media only screen and (max-width:430px) and (min-width:375px){
     .page{
         width: 376px;
-        /* overflow: hidden; */
+        overflow: hidden;
+        height: 320vh;
     }
     .nav{
         width: 327px;
         height: 48px;
-        left: 24px;
-        top: 30px;
-        margin-top: 30px;
-    }
+        margin-top: -50rem;
+        }
     .pre{
         width: 10rem;
-        height: 2vh;
+        height: 5vh;
     }
     .keyboard-master{
-        margin-top: -85rem;
+        margin-top: -5rem;
         width: 23rem;
+        margin-left: -3rem;
     }
     .keyboard p{
         line-height: 4rem;
+    }
+    .pre-order-container{
+        gap: 1em;
+    }
+    .pre-order-container button{
+        width: 15rem;
+    }
+    .pre-order-container h3{
+        width: 13rem;
     }
     .img-container .desktop{
         display: none;
@@ -338,31 +368,35 @@ color: var(--main-color);
     .img-container .mobile{
         position: relative;
         display: inline;
-        right: 19rem;
-        top: -20rem;
+        right: 39rem;
+        top: 18rem;
         border-radius: 20px;
         width: 23rem;
     }
     .wireless-img{
         position: relative;
-        top: -65rem;
+        top: 13rem;
         right: 10rem;
     }
-    .wireless-img .desktop{
-        width: 7rem;
+    .wireless-img .all{
+        width: 10rem;
+        height: 15rem;
     }
-    .Mech{
-        margin-top: -120rem;
-        left: -90rem;
-    }  
+    .wireless-img .desktop{
+        width: 16rem;
+        height: 15rem;
+    }
     .Mech .mech1{
-        text-align: center;
-        margin-left: 10px;
-    }  
+        position: relative;
+        left: -37.5rem;
+        width: 10rem;
+        top: 30rem;
+    }
+    
     .Mech .mech2{
         position: relative;
-        margin-left: -320px;
-        top: 22rem;
+        margin-left: -630px;
+        top: 30rem;
         width: 20rem;
     }
     .computer-tools .svg-container{
@@ -376,7 +410,7 @@ color: var(--main-color);
     .computer-container{
         position: relative;
         width: 20rem;
-        margin-top: -160rem;
+        margin-top: 40rem;
         left: 32rem; 
      }
      .computer-container p{
@@ -385,7 +419,7 @@ color: var(--main-color);
      .bluetooth-container{
         position: relative;
         width: 20rem;
-        margin-top: -110rem;
+        margin-top: 80rem;
         left: 13rem;
      }
      .bluetooth-container p{
@@ -394,7 +428,7 @@ color: var(--main-color);
      .battery-container{
         position: relative;
        width: 20rem;
-        margin-top: -110rem;
+        margin-top: 120rem;
         /* display: flex; */
         right: 7rem; 
      }
@@ -404,7 +438,7 @@ color: var(--main-color);
      .mode-container{
         position: relative;
         width: 20rem;
-        margin-top: -60rem;
+        margin-top: 160rem;
         /* display: flex; */
         right: 27rem;
      }
@@ -412,9 +446,125 @@ color: var(--main-color);
         width: 20rem;
      }
      .footer{
-        margin-top: -30rem;
+        position: relative;
+        top: 55rem;
         text-align: center;
      }
 
 }   
+@media  only screen and (max-width:375px) {
+    .page{
+        width: 376px;
+        height: 430vh; 
+    }
+    .nav{
+        width: 327px;
+        height: 48px;
+        margin-top: -65rem; 
+    }
+    .pre{
+        width: 10rem;
+        height: 5vh;
+    }
+    .keyboard-master{
+        margin-top: 5rem;
+        width: 30rem;
+       
+    }
+    .keyboard p{
 
+        display: flex;
+        line-height: 4rem;
+    }
+    .img-container .desktop{
+        display: none;
+    }
+    .img-container .tablet{
+        display: none;
+    }
+    .img-container .mobile{
+        position: relative;
+        display: inline;
+        right: 44rem;
+        top: 23rem;
+        border-radius: 20px;
+        width: 20rem;
+    }
+    .wireless-img{
+        position: relative;
+        top: 22rem;
+        right: 10rem;
+    }
+    .wireless-img .all{
+        width: 10rem;
+        height: 15rem;
+    }
+    .wireless-img .desktop{
+        width: 16rem;
+        height: 15rem;
+    }
+    .Mech .mech1{
+        position: relative;
+        left: -37.5rem;
+        width: 10rem;
+        top: 40rem;
+    }
+    
+    .Mech .mech2{
+        position: relative;
+        margin-left: -630px;
+        top: 40rem;
+        width: 20rem;
+    }
+    .computer-tools .svg-container{
+        margin-left: 3rem;
+    }
+    .computer-tools h1{
+        margin-left: 2rem;
+        width: 50rem;
+        
+    }
+    .computer-container{
+        position: relative;
+        width: 20rem;
+        margin-top: 70rem;
+        left: 32rem; 
+     }
+     .computer-container p{
+        width: 20rem;
+     }
+     .bluetooth-container{
+        position: relative;
+        width: 20rem;
+        margin-top: 110rem;
+        left: 13rem;
+     }
+     .bluetooth-container p{
+        width: 20rem;
+        }
+     .battery-container{
+        position: relative;
+       width: 20rem;
+        margin-top: 150rem;
+        /* display: flex; */
+        right: 7rem; 
+     }
+     .battery-container p{
+        width: 20rem;
+     }
+     .mode-container{
+        position: relative;
+        width: 20rem;
+        margin-top: 190rem;
+        /* display: flex; */
+        right: 27rem;
+     }
+     .mode-container p{
+        width: 20rem;
+     }
+     .footer{
+        position: relative;
+        top: 73rem;
+        text-align: center;
+     }
+} 
