@@ -198,7 +198,7 @@ color: var(--main-color);
 @media  only screen and (max-width:850px) and (min-width:430px){
     .page{
         width: 768px;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
         height: 190vh;
     }
     .pre{
@@ -330,8 +330,8 @@ color: var(--main-color);
 @media only screen and (max-width:430px) and (min-width:375px){
     .page{
         width: 376px;
-        overflow: hidden;
-        height: 320vh;
+        /* overflow: hidden; */
+        height: 370vh;
     }
     .nav{
         width: 327px;
