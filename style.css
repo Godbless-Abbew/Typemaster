@@ -195,7 +195,7 @@ color: var(--main-color);
 }
 
 /* Responsive styles tablet */
-@media  only screen and (max-width:768px) and (min-width:430px){
+@media  only screen and (max-width:930px) and (min-width:430px){
     .page{
         width: 768px;
         /* overflow-x: hidden; */
@@ -327,16 +327,16 @@ color: var(--main-color);
 }
 
 /* Responsive styles Mobile */
-@media only screen and (max-width:430px) and (min-width:375px){
+@media only screen and (max-width:430px) and (min-width:205px){
     .page{
         width: 376px;
         /* overflow: hidden; */
-        height: 370vh;
+        height: 360vh;
     }
     .nav{
         width: 327px;
         height: 48px;
-        margin-top: -40rem;
+        margin-top: -50rem;
         }
     .pre{
         width: 10rem;
