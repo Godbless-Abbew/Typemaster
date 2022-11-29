@@ -195,7 +195,7 @@ color: var(--main-color);
 }
 
 /* Responsive styles tablet */
-@media  only screen and (max-width:850px) and (min-width:430px){
+@media  only screen and (max-width:768px) and (min-width:430px){
     .page{
         width: 768px;
         /* overflow-x: hidden; */
@@ -336,7 +336,7 @@ color: var(--main-color);
     .nav{
         width: 327px;
         height: 48px;
-        margin-top: -50rem;
+        margin-top: -40rem;
         }
     .pre{
         width: 10rem;
