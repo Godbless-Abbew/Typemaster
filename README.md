@@ -24,7 +24,7 @@ https://typemaster-tau.vercel.app/
 ## Preview
 
 ## Desktop 
-<img src="Desktop.png" width= 800px height=1200px>
+<img src="Desktop.png" width= 800px height=1000px>
 
 ## Tablet
 <img src="Tablet.png" width= 400px height=800px>
