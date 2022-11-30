@@ -199,7 +199,7 @@ color: var(--main-color);
     .page{
         width: 768px;
         /* overflow-x: hidden; */
-        height: 330vh;
+        height: 190vh;
     }
     .pre{
     width: 20vw;
