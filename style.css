@@ -374,11 +374,128 @@ width: 5rem;
 }
 
 /* Responsive styles Mobile */
-@media only screen and (max-width:430px) and (min-width:250px){
+@media  only screen and (max-width:376px){
+    .page{
+        width: 376px;
+        height: 520vh; 
+    }
+    .nav{
+        width: 327px;
+        height: 48px;
+        margin-top: -85rem; 
+    }
+    .pre{
+        width: 10rem;
+        height: 5vh;
+    }
+    .keyboard-master{
+        margin-top: 5rem;
+        width: 30rem;
+       
+    }
+    .keyboard p{
+
+        display: flex;
+        line-height: 4rem;
+    }
+    .img-container .desktop{
+        display: none;
+    }
+    .img-container .tablet{
+        display: none;
+    }
+    .img-container .mobile{
+        position: relative;
+        display: inline;
+        right: 44rem;
+        margin-top: -1rem;
+        border-radius: 20px;
+        width: 20rem;
+    }
+    .wireless-img{
+        position: relative;
+        margin-top: 2rem;
+        right: 10rem;
+    }
+    .wireless-img .all{
+        width: 10rem;
+        height: 15rem;
+    }
+    .wireless-img .desktop{
+        width: 16rem;
+        height: 15rem;
+    }
+    .Mech .mech1{
+        position: relative;
+        left: -37.5rem;
+        width: 10rem;
+        margin-top: 5rem;
+    }
+    
+    .Mech .mech2{
+        position: relative;
+        margin-left: -630px;
+        top: 40rem;
+        width: 20rem;
+    }
+    .computer-tools .svg-container{
+        margin-left: 3rem;
+    }
+    .computer-tools h1{
+        margin-left: 2rem;
+        width: 50rem;
+        
+    }
+    .computer-container{
+        position: relative;
+        width: 20rem;
+        margin-top: 70rem;
+        left: 32rem; 
+     }
+     .computer-container p{
+        width: 20rem;
+     }
+     .bluetooth-container{
+        position: relative;
+        width: 20rem;
+        margin-top: 110rem;
+        left: 13rem;
+     }
+     .bluetooth-container p{
+        width: 20rem;
+        }
+     .battery-container{
+        position: relative;
+       width: 20rem;
+        margin-top: 150rem;
+        /* display: flex; */
+        right: 7rem; 
+     }
+     .battery-container p{
+        width: 20rem;
+     }
+     .mode-container{
+        position: relative;
+        width: 20rem;
+        margin-top: 190rem;
+        /* display: flex; */
+        right: 27rem;
+     }
+     .mode-container p{
+        width: 20rem;
+     }
+     .footer{
+        position: relative;
+        top: 73rem;
+        text-align: center;
+     }
+} 
+
+@media only screen and (max-width:430px) {
     .page{
         width: 410px;
         overflow-x: hidden;
-        height: 320vh;
+        height: 390vh;
         
     }
     .nav{
@@ -391,7 +508,7 @@ width: 5rem;
         height: 5vh;
     }
     .keyboard-master{
-        margin-top: -5rem;
+        margin-top: -1rem;
         width: 23rem;
         margin-left: -3rem;
     }
@@ -417,7 +534,7 @@ width: 5rem;
         position: relative;
         display: inline;
         right: 37rem;
-        top: 18rem;
+        top: 20rem;
         border-radius: 20px;
         width: 23rem;
     }
@@ -426,7 +543,7 @@ width: 5rem;
     }
     .wireless-img{
         position: relative;
-        top: 13rem;
+        top: 15rem;
         right: 10rem;
     }
     .wireless-img .all{
@@ -513,119 +630,3 @@ width: 5rem;
      }
 
 }   
-@media  only screen and (max-width:375px) {
-    .page{
-        width: 376px;
-        height: 100%; 
-    }
-    .nav{
-        width: 327px;
-        height: 48px;
-        margin-top: -65rem; 
-    }
-    .pre{
-        width: 10rem;
-        height: 5vh;
-    }
-    .keyboard-master{
-        margin-top: 10rem;
-        width: 30rem;
-       
-    }
-    .keyboard p{
-
-        display: flex;
-        line-height: 4rem;
-    }
-    .img-container .desktop{
-        display: none;
-    }
-    .img-container .tablet{
-        display: none;
-    }
-    .img-container .mobile{
-        position: relative;
-        display: inline;
-        right: 44rem;
-        top: 23rem;
-        border-radius: 20px;
-        width: 20rem;
-    }
-    .wireless-img{
-        position: relative;
-        top: 22rem;
-        right: 10rem;
-    }
-    .wireless-img .all{
-        width: 10rem;
-        height: 15rem;
-    }
-    .wireless-img .desktop{
-        width: 16rem;
-        height: 15rem;
-    }
-    .Mech .mech1{
-        position: relative;
-        left: -37.5rem;
-        width: 10rem;
-        top: 40rem;
-    }
-    
-    .Mech .mech2{
-        position: relative;
-        margin-left: -630px;
-        top: 40rem;
-        width: 20rem;
-    }
-    .computer-tools .svg-container{
-        margin-left: 3rem;
-    }
-    .computer-tools h1{
-        margin-left: 2rem;
-        width: 50rem;
-        
-    }
-    .computer-container{
-        position: relative;
-        width: 20rem;
-        margin-top: 70rem;
-        left: 32rem; 
-     }
-     .computer-container p{
-        width: 20rem;
-     }
-     .bluetooth-container{
-        position: relative;
-        width: 20rem;
-        margin-top: 110rem;
-        left: 13rem;
-     }
-     .bluetooth-container p{
-        width: 20rem;
-        }
-     .battery-container{
-        position: relative;
-       width: 20rem;
-        margin-top: 150rem;
-        /* display: flex; */
-        right: 7rem; 
-     }
-     .battery-container p{
-        width: 20rem;
-     }
-     .mode-container{
-        position: relative;
-        width: 20rem;
-        margin-top: 190rem;
-        /* display: flex; */
-        right: 27rem;
-     }
-     .mode-container p{
-        width: 20rem;
-     }
-     .footer{
-        position: relative;
-        top: 73rem;
-        text-align: center;
-     }
-} 
