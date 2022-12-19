@@ -363,7 +363,9 @@ width: 5rem;
      }
 }
 @media  only screen and (max-width:820px) {
-    
+    .page{
+        width:830px
+    }
   
     .footer{
     margin-top: 25rem;
@@ -372,7 +374,7 @@ width: 5rem;
 }
 
 /* Responsive styles Mobile */
-@media only screen and (max-width:430px) and (min-width:205px){
+@media only screen and (max-width:430px) and (min-width:250px){
     .page{
         width: 410px;
         overflow-x: hidden;
@@ -465,7 +467,7 @@ width: 5rem;
         position: relative;
         width: 20rem;
         margin-top: 40rem;
-        left: 26rem; 
+        left: 28rem; 
      }
      .computer-container p{
         width: 17rem;
@@ -475,7 +477,7 @@ width: 5rem;
         position: relative;
         width: 20rem;
         margin-top: 80rem;
-        left: 7rem;
+        left: 9rem;
      }
      .bluetooth-container p{
         width: 17rem;
@@ -486,7 +488,7 @@ width: 5rem;
        width: 20rem;
         margin-top: 120rem;
         /* display: flex; */
-        right: 12rem; 
+        right: 10rem; 
      }
      .battery-container p{
         width: 17rem;
@@ -497,7 +499,7 @@ width: 5rem;
         width: 20rem;
         margin-top: 160rem;
         /* display: flex; */
-        right: 30rem;
+        right: 29rem;
      }
      .mode-container p{
         width: 18rem;
@@ -514,7 +516,7 @@ width: 5rem;
 @media  only screen and (max-width:375px) {
     .page{
         width: 376px;
-        height: 430vh; 
+        height: 100%; 
     }
     .nav{
         width: 327px;
